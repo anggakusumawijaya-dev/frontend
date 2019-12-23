@@ -37,7 +37,7 @@ class Home extends Component {
         }
       );
 
-    fetch("http://codingstudio.herokuapp.com/slider")
+    fetch("https://codingstudio.herokuapp.com/slider")
       .then(res => res.json())
       .then(
         (result) => {
